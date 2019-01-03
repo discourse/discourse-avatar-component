@@ -2,7 +2,7 @@
     width: #{$topic_avatars_size}px;
 } 
 img.avatar {
-    border-radius: #{$topic_avatars_border_radius}%;
+    border-radius: #{$topic_avatars_border_radius};
 } 
 .embedded-posts .topic-avatar {
   img.avatar {
