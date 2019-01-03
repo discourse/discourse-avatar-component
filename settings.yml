@@ -2,6 +2,6 @@ topic_avatars_size:
   default: 45px
   type: enum
   choices:
-    - 60px
-    - 90px
-    - 120px
+    - 60
+    - 90
+    - 120
