@@ -16,6 +16,8 @@ topic_avatars_border:
   default: 50%
   type: enum
   choices:
-    - 0% !important
+    - 0%
+    - 10%
+    - 20%
     - 30%
     - 40%
