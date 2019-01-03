@@ -1,7 +1,0 @@
-topic_avatars_size:
-  type: enum
-  choices:
-    - 60px
-    - 90px
-    - 120px
- 
