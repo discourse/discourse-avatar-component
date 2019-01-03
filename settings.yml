@@ -14,7 +14,7 @@ topic_avatars_size:
     - 200
   description:
     en: "Choose the avatar size on topics. Default value is 45px."
-topic_avatars_border_radius:
+avatars_border_radius:
   default: 50%
   type: enum
   choices:
