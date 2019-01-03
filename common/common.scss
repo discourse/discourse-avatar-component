@@ -11,5 +11,5 @@
   width: 45px;
 }
 .avatar {
-    border-radius: #{$topic_avatars_border};
+    border-radius: #{$topic_avatars_border} !important;
 }
