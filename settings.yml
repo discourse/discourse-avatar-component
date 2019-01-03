@@ -12,10 +12,10 @@ topic_avatars_size:
     - 160
     - 180
     - 200
-$topic_avatars_border:
+topic_avatars_border:
   default: 50%
   type: enum
   choices:
-    - 10%
+    - 0% !important
     - 30%
     - 40%
