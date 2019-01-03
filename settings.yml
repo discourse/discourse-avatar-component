@@ -3,6 +3,12 @@ topic_avatars_size:
   type: enum
   choices:
     - 60
+    - 70
+    - 80
     - 90
+    - 100
     - 120
+    - 140
+    - 160
+    - 180
     - 200
