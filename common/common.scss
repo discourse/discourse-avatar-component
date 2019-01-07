@@ -13,3 +13,16 @@
 .avatar {
     border-radius: #{$avatars_border_radius} !important;
 }
+
+.topic-list .posters {
+  width: unset;
+  &.theme-avatar-large, &.theme-avatar-extra_large, &.theme-avatar-huge {
+    width: auto;
+    a:not(.latest) {
+      display: none;
+    }
+  }
+  &.theme-avatar-tiny, &.theme-avatar-small, &.theme-avatar-medium {
+      width: 146px;
+  }
+}
