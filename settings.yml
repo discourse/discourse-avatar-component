@@ -34,7 +34,7 @@ latest_avatar_size:
     - small
     - medium
     - large
-    - extra-large
+    - extra_large
     - huge
   description:
     en: "Choose the avatar size on latest. Default value is small (25px)."
