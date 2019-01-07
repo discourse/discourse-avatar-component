@@ -29,10 +29,11 @@ latest_avatar_size:
   default: 45
   type: enum
   choices:
-    - tiny
-    - small
-    - large
-    - huge
-    - medium
+    - 20
+    - 25
+    - 32
+    - 45
+    - 60
+    - 120
   description:
-    en: "Choose the avatar size on latest. Default value is small."
+    en: "Choose the avatar size on latest. Default value is 25px."
