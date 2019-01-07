@@ -1,3 +1,13 @@
 <script type="text/discourse-plugin" version="0.8">
     api.changeWidgetSetting('post-avatar', 'size', settings.topic_avatars_size);
 </script>
+
+<script type="text/x-handlebars" data-template-name="list/posters-column.raw">
+<td class='posters'>
+  {{#each posters as |poster|}}
+    <a href="{{poster.user.path}}" data-user-card="{{poster.user.username}}" class="{{poster.extraClasses}}">
+      {{avatar poster avatarTemplatePath="user.avatar_template" usernamePath="user.username" imageSize="latest_avatar_size"}}
+    </a>
+  {{/each}}
+</td>
+</script>
