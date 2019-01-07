@@ -25,3 +25,14 @@ avatars_border_radius:
     - 40%
   description:
     en: "Choose the border-radius of the avatars on the site. The setting will be applied to all avatars, including the one on the header and the one on the user-card. 0% corresponds to a square shape, 50% to a rounded shape. Default value at 50%"    
+latest_avatar_size:
+  default: 45
+  type: enum
+  choices:
+    - tiny
+    - small
+    - large
+    - huge
+    - medium
+  description:
+    en: "Choose the avatar size on latest. Default value is small."
