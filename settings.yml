@@ -29,6 +29,7 @@ latest_avatar_size:
   default: 45
   type: enum
   choices:
+    - huge
     - 20
     - 25
     - 32
