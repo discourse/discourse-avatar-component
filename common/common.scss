@@ -1,3 +1,4 @@
+//Avatars on topics
 .topic-avatar {
     width: #{$topic_avatars_size}px;
 } 
@@ -10,17 +11,25 @@
   padding-top: 15px;
   width: 45px;
 }
+
+//Avatar on header
 #current-user a.icon {
     width: #{$header_avatars_size}px !important;
 }
 .d-header-icons .icon img.avatar {
     width: #{$header_avatars_size}px !important;
     height: #{$header_avatars_size}px !important;
-}    
+}
+.d-header.clearfix {
+    height: #{$header_height}px;
+}
+
+//Avatars shape
 .avatar {
     border-radius: #{$avatars_border_radius} !important;
 }
 
+//Avatars on /latest
 .topic-list .posters {
   width: unset;
   &.theme-avatar-large, &.theme-avatar-extra_large, &.theme-avatar-huge {
