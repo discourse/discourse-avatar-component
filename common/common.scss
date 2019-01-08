@@ -10,6 +10,10 @@
   padding-top: 15px;
   width: 45px;
 }
+#current-user a.icon {
+    width: #{$header_avatars_size}px !important;
+    height: #{$header_avatars_size}px !important;;
+}
 .avatar {
     border-radius: #{$avatars_border_radius} !important;
 }
