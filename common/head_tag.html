@@ -2,6 +2,10 @@
     api.changeWidgetSetting('post-avatar', 'size', settings.topic_avatars_size);
 </script>
 
+<script type="text/discourse-plugin" version="0.8">
+    api.changeWidgetSetting('header-notifications', 'avatarSize', settings.header_avatars_size);
+</script>
+
 <script type="text/x-handlebars" data-template-name="list/posters-column.raw">
 <td class='posters theme-avatar-{{themeSettings.latest_avatar_size}}'>
   {{#each posters as |poster|}}
