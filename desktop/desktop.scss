@@ -1,3 +1,4 @@
+//Transparent background for the header avatar
 .d-header-icons {
   .current-user .icon {
     &:active,
@@ -9,9 +10,12 @@
 }
 
 //Notifications babble
-.d-header-icons .unread-private-messages, .d-header-icons .ring {
+.d-header-icons {
+  .unread-private-messages, .ring {
     left: auto;
     right: 75%;
-    /*top: -55%;*/
+  }
+  .unread-notifications {
+    right: -6px;
+  }
 }
-  
