@@ -23,16 +23,7 @@
 .d-header.clearfix {
     height: #{$header_height}px;
 }
-.list-controls {
-    margin-top: 4%;
-}
-#banner {
-    margin-top: 4%;
-}
-.user-main .about .details .primary {
-    margin-top: 4%;
-}
-.admin-main-nav {
+.list-controls, #banner, .user-main .about .details .primary, .admin-main-nav {
     margin-top: 4%;
 }
 .d-header-icons .icon img.avatar:hover {
