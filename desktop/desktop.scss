@@ -1,0 +1,9 @@
+.d-header-icons {
+  .current-user .icon {
+    &:active,
+    &:hover,
+    &:focus {
+      background-color: transparent;
+    }
+  }
+}
