@@ -35,7 +35,7 @@ header_height:
     - 90
     - 100
   description:
-    en: "Choose the height of the header. The choice must be made based on the header_avatars_size + 10px. For example, if the avatar size is 90px, the header should be 100px. Default value is 60px."    
+    en: "Choose the height of the header. The choice must be made based on the header_avatars_size + 10px. For example, if the header_avatars_size is set to 90px, the header should be 100px. Default value is 60px."    
 avatars_border_radius:
   default: 50%
   type: enum
