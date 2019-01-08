@@ -42,9 +42,10 @@
       display: none;
     }
   }
-  &.theme-avatar-tiny, &.theme-avatar-small {
-      width: 146px;
+  &.theme-avatar-tiny, .theme-avatar-small {
+    width: 146px;
   }
-  &.theme-avatar-medium {
-      width: 176px;
+  .theme-avatar-medium {
+    width: 176px;
+  }
 }
