@@ -11,11 +11,11 @@
 
 //Notifications babble
 .d-header-icons {
-  .unread-private-messages, .ring {
-    left: auto;
-    right: 75%;
-  }
   .unread-notifications {
     right: -6px;
+  }
+  .unread-private-messages {
+    right: auto;
+    left: 2%;
   }
 }
