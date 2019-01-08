@@ -42,7 +42,9 @@
       display: none;
     }
   }
-  &.theme-avatar-tiny, &.theme-avatar-small, &.theme-avatar-medium {
+  &.theme-avatar-tiny, &.theme-avatar-small {
       width: 146px;
   }
+  &.theme-avatar-medium {
+      width: 176px;
 }
