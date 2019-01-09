@@ -1,5 +1,5 @@
 {
-  "name": "avatar component",
+  "name": "discourse avatar component",
   "about_url": "https://github.com/discourse/discourse-avatar-component",
   "license_url": "https://github.com/discourse/discourse-avatar-component/blob/master/LICENSE","
   "component": true
