@@ -48,6 +48,11 @@ header_height:
     - 100
   description:
     en: "Choose the height of the header. The choice must be made based on the header_avatars_size + 10px. For example, if the header_avatars_size is set to 90px, the header should be 100px. Default value is 60px."
+margin_top:
+  default: 0
+  type: string
+  description:
+    en: "Choose the distance in px from the header. Default value is 0px." 
 avatars_border_radius:
   default: 50%
   type: enum
@@ -58,4 +63,4 @@ avatars_border_radius:
     - 30%
     - 40%
   description:
-    en: "Choose the border-radius of the avatars on the site. The setting will be applied to all avatars, including the one on the header and the one on the user-card. 0% corresponds to a square shape, 50% to a rounded shape. Default value at 50%"    
+    en: "Choose the border-radius of the avatars on the site. The setting will be applied to all avatars, including the one on the header and the one on the user-card. 0% corresponds to a square shape, 50% to a rounded shape. Default value at 50%"      
