@@ -1,6 +1,6 @@
 {
   "name": "avatar component",
-  "about_url": "https://github.com/Dax74/avatar",
-  "license_url": "https://github.com/Dax74/avatar-component/blob/master/LICENSE","
+  "about_url": "https://github.com/discourse/discourse-avatar-component",
+  "license_url": "https://github.com/discourse/discourse-avatar-component/blob/master/LICENSE","
   "component": true
 }
