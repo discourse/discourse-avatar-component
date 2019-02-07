@@ -6,7 +6,7 @@
 <script type="text/x-handlebars" data-template-name="list/posters-column.raw">
 <td class='posters theme-avatar-{{themeSettings.latest_avatar_size}}'>
   {{#each posters as |poster|}}
-    <a href="{{poster.user.path}}" data-user-card="{{poster.user.username}}" class="{{poster.extraClasses}}">
+    <a href="{{poster.user.path}}"  data-user-card="{{poster.user.username}}" class="{{poster.extraClasses}}">
       {{avatar poster avatarTemplatePath="user.avatar_template" usernamePath="user.username" imageSize=themeSettings.latest_avatar_size}}
     </a>
   {{/each}}
