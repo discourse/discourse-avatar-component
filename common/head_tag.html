@@ -7,7 +7,7 @@
 <td class='posters theme-avatar-{{themeSettings.latest_avatar_size}}'>
   {{#each posters as |poster|}}
     <a href="{{poster.user.path}}"  data-user-card="{{poster.user.username}}" class="{{poster.extraClasses}}">
-      {{avatar poster avatarTemplatePath="user.avatar_template" usernamePath="user.username" imageSize=themeSettings.latest_avatar_size}}
+      {{avatar poster avatarTemplatePath="user.avatar_template" usernamePath="user.username" namePath="user.name" imageSize=themeSettings.latest_avatar_size}}
     </a>
   {{/each}}
 </td>
