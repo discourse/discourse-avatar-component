@@ -9,7 +9,7 @@ latest_avatar_size:
     - extra_large
     - huge
   description:
-    en: "Choose the avatar size on latest. Default value is small (25px). To see the changes applied, refresh the page with ctrl+F5 or cmd+shif+R."
+    en: "Choose the avatar size on latest. Default value is small (25px). To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R."
 topic_avatars_size:
   default: 45
   type: enum
@@ -26,7 +26,7 @@ topic_avatars_size:
     - 180
     - 200
   description:
-    en: "Choose the avatar size on topics. Default value is 45px. To see the changes applied, refresh the page with ctrl+F5 or cmd+shif+R."
+    en: "Choose the avatar size on topics. Default value is 45px. To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R."
 header_avatars_size:    
   default: 32
   type: enum
@@ -37,7 +37,7 @@ header_avatars_size:
     - 80
     - 90
   description:
-    en: "Choose the avatar size on header. Default value is 32px. To see the changes applied, refresh the page with ctrl+F5 or cmd+shif+R." 
+    en: "Choose the avatar size on header. Default value is 32px. To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R." 
 header_height:
   default: 60
   type: enum
