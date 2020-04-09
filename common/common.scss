@@ -15,6 +15,10 @@
 //Avatar on header
 #current-user a.icon {
     width: #{$header_avatars_size}px !important;
+    background: transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-top: 1px solid transparent;    
 }
 .d-header-icons .icon img.avatar {
     width: #{$header_avatars_size}px !important;
