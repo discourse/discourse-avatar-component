@@ -1,8 +1,8 @@
 .topic-avatar {
+  width: #{$mobile_avatars_size}px;
+
   .avatar {
     width: #{$mobile_avatars_size}px;
     height: #{$mobile_avatars_size}px;
   }
-
-  width: #{$mobile_avatars_size}px;
 }
