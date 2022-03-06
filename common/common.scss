@@ -1,67 +1,78 @@
-//Avatars on topics
+// Avatars on topics
 .topic-avatar {
-    width: #{$topic_avatars_size}px;
-} 
+  width: #{$topic_avatars_size}px;
+}
+
 .embedded-posts .topic-avatar {
+  padding-left: 25px;
+  padding-top: 15px;
+  width: 45px;
+
   img.avatar {
     width: 45px;
     height: 45px;
   }
-  padding-left: 25px;
-  padding-top: 15px;
-  width: 45px;
 }
 
-//Avatar on header
+// Avatar on header
 #current-user a.icon {
-    width: #{$header_avatars_size}px !important;
-    background: transparent;
-    border-left: 1px solid transparent;
-    border-right: 1px solid transparent;
-    border-top: 1px solid transparent;    
+  width: #{$header_avatars_size}px !important;
+  background: transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  border-top: 1px solid transparent;
 }
+
 .d-header-icons .icon img.avatar {
-    width: #{$header_avatars_size}px !important;
-    height: #{$header_avatars_size}px !important;
+  width: #{$header_avatars_size}px !important;
+  height: #{$header_avatars_size}px !important;
 }
+
 .d-header.clearfix {
-    height: #{$header_height}px;
+  height: #{$header_height}px;
 }
 
-
-//Avatars shape (round = 50%, square = 0%)
+// Avatars shape (round = 50%, square = 0%)
 .avatar {
-    border-radius: #{$avatars_border_radius} !important;
+  border-radius: #{$avatars_border_radius} !important;
 }
 
-//Avatars on /latest
+// Avatars on /latest
 .topic-list .posters {
   width: unset;
-  &.theme-avatar-large, &.theme-avatar-extra_large, &.theme-avatar-huge {
+
+  &.theme-avatar-large,
+  &.theme-avatar-extra_large,
+  &.theme-avatar-huge {
     width: auto;
+
     a:not(.latest) {
       display: none;
     }
   }
-  &.theme-avatar-tiny, &.theme-avatar-small {
+
+  &.theme-avatar-tiny,
+  &.theme-avatar-small {
     width: 146px;
   }
+
   &.theme-avatar-medium {
     width: 176px;
   }
 }
 
 // Space from header
-.list-controls, 
+.list-controls,
 .admin-main-nav,
 .mobile-view .admin-main-nav,
-.alert, #banner, 
-.user-main, 
-#topic-title, 
-.about-page .nav-pills, 
-.static-faq .nav-pills, 
-.static-tos .nav-pills, 
-.static-privacy .nav-pills, 
+.alert,
+#banner,
+.user-main,
+#topic-title,
+.about-page .nav-pills,
+.static-faq .nav-pills,
+.static-tos .nav-pills,
+.static-privacy .nav-pills,
 .alert.alert-info,
 .container.badges h1,
 .users-page .directory,
