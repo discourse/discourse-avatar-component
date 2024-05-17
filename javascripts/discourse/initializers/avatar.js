@@ -11,11 +11,12 @@ export default {
         settings.topic_avatars_size
       );
 
-      api.changeWidgetSetting(
-        "header-notifications",
-        "avatarSize",
-        settings.header_avatars_size
-      );
+      api.modifyClass("component:header/user-dropdown/notifications", {
+        pluginId: "discourse-avatar-component",
+        get avatarSize() {
+          return settings.header_avatars_size;
+        },
+      });
     });
   },
 };
