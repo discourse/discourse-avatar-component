@@ -4,19 +4,17 @@ export default {
   name: "discourse-avatar-component",
 
   initialize() {
-    withPluginApi("0.8.0", (api) => {
+    withPluginApi("1.34.0", (api) => {
       api.changeWidgetSetting(
         "post-avatar",
         "size",
         settings.topic_avatars_size
       );
 
-      api.modifyClass("component:header/user-dropdown/notifications", {
-        pluginId: "discourse-avatar-component",
-        get avatarSize() {
-          return settings.header_avatars_size;
-        },
-      });
+      api.registerValueTransformer(
+        "header-notifications-avatar-size",
+        () => settings.header_avatars_size
+      );
     });
   },
 };
