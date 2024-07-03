@@ -8,8 +8,6 @@ latest_avatar_size:
     - large
     - extra_large
     - huge
-  description:
-    en: "Choose the avatar size on latest. Default value is small (25px). To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R."
 topic_avatars_size:
   default: 45
   type: enum
@@ -25,8 +23,6 @@ topic_avatars_size:
     - 160
     - 180
     - 200
-  description:
-    en: "Choose the avatar size on topics. Default value is 45px. To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R."
 header_avatars_size:
   default: 32
   type: enum
@@ -36,8 +32,6 @@ header_avatars_size:
     - 70
     - 80
     - 90
-  description:
-    en: "Choose the avatar size on header. Default value is 32px. To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R."
 header_height:
   default: 60
   type: enum
@@ -46,13 +40,9 @@ header_height:
     - 80
     - 90
     - 100
-  description:
-    en: "Choose the height of the header. The choice must be made based on the header_avatars_size + 10px. For example, if the header_avatars_size is set to 90px, the header should be 100px. Default value is 60px."
 margin_top:
   default: 0
   type: string
-  description:
-    en: "Choose the distance in px from the header. Default value is 0px."
 avatars_border_radius:
   default: 50%
   type: enum
@@ -62,11 +52,7 @@ avatars_border_radius:
     - 20%
     - 30%
     - 40%
-  description:
-    en: "Choose the border-radius of the avatars on the site. The setting will be applied to all avatars, including the one on the header and the one on the user-card. 0% corresponds to a square shape, 50% to a rounded shape. Default value at 50%"
 mobile_avatars_size:
   default: 45
   min: 45
   max: 80
-  description:
-    en: "Choose the avatar size on topics on Mobile. Min value is 45px (default), max value is 80px. To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R."

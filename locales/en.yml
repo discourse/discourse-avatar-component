@@ -1,0 +1,10 @@
+en:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "Choose the avatar size on latest. Default value is small (25px). To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R."
+      topic_avatars_size: "Choose the avatar size on topics. Default value is 45px. To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R."
+      header_avatars_size: "Choose the avatar size on header. Default value is 32px. To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R."
+      header_height: "Choose the height of the header. The choice must be made based on the header_avatars_size + 10px. For example, if the header_avatars_size is set to 90px, the header should be 100px. Default value is 60px."
+      margin_top: "Choose the distance in px from the header. Default value is 0px."
+      avatars_border_radius: "Choose the border-radius of the avatars on the site. The setting will be applied to all avatars, including the one on the header and the one on the user-card. 0% corresponds to a square shape, 50% to a rounded shape. Default value at 50%"
+      mobile_avatars_size: "Choose the avatar size on topics on Mobile. Min value is 45px (default), max value is 80px. To see the changes applied, refresh the page with ctrl+F5 or cmd+shift+R."
