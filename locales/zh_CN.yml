@@ -5,3 +5,12 @@
 # https://translate.discourse.org/
 
 zh_CN:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "选择“最新”部分的头像大小。默认值为小 (25px)。要查看应用的更改，请使用 Ctrl+F5 或 Cmd+Shift+R 刷新页面。"
+      topic_avatars_size: "选择话题上的头像大小。默认值为 45px。要查看应用的更改，请使用 Ctrl+F5 或 Cmd+Shift+R 刷新页面。"
+      header_avatars_size: "选择标题上的头像大小。默认值为 32px。要查看应用的更改，请使用 Ctrl+F5 或 Cmd+Shift+R 刷新页面。"
+      header_height: "选择标题的高度。必须基于 header_avatars_size + 10px 进行选择。例如，如果 header_avatars_size 设置为 90px，则标题应为 100px。默认值为 60px。"
+      margin_top: "选择与标题的距离（以 px 为单位）。默认值为 0px。"
+      avatars_border_radius: "选择网站上头像的边框半径。此设置将应用于所有头像，包括标题上的头像和用户卡片上的头像。0% 对应于正方形，50% 对应于圆形。默认值为 50%"
+      mobile_avatars_size: "选择移动设备中话题上的头像大小。最小值为 45px（默认）。要查看应用的更改，请使用 Ctrl+F5 或 Cmd+Shift+R 刷新页面。"
