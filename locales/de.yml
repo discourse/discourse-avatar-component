@@ -7,10 +7,10 @@
 de:
   theme_metadata:
     settings:
-      latest_avatar_size: "Wähle die Größe der Avatare auf der Seite „Aktuell“. Der Standardwert ist „small“ (25 Pixel). Um die vorgenommenen Änderungen zu sehen, aktualisiere die Seite mit Strg+F5 oder cmd+Shift+R."
-      topic_avatars_size: "Wähle die Größe des Avatars bei Themen. Der Standardwert ist 32 Pixel. Um die vorgenommenen Änderungen zu sehen, aktualisiere die Seite mit Strg+F5 oder cmd+Shift+R."
+      latest_avatar_size: "Wähle die Größe des Avatars auf der Seite „Aktuell“. Der Standardwert ist „small“ (25 Pixel). Um die vorgenommenen Änderungen zu sehen, aktualisiere die Seite mit Strg+F5 oder cmd+Shift+R."
+      topic_avatars_size: "Wähle die Größe des Avatars bei Themen. Der Standardwert ist 45 Pixel. Um die vorgenommenen Änderungen zu sehen, aktualisiere die Seite mit Strg+F5 oder cmd+Shift+R."
       header_avatars_size: "Wähle die Größe des Avatars in der Kopfzeile. Der Standardwert ist 32 Pixel. Um die vorgenommenen Änderungen zu sehen, aktualisiere die Seite mit Strg+F5 oder cmd+Shift+R."
       header_height: "Wähle die Höhe der Kopfzeile. Die Eingabe ergibt sich aus der Größe von „header_avatars_size“ + 10 Pixel. Wenn für „header_avatars_size“ beispielsweise 90 Pixel gewählt wurde, sollte die Kopfzeile 100 Pixel groß sein. Der Standardwert ist 60 Pixel."
       margin_top: "Wähle den Abstand von der Kopfzeile in Pixeln. Der Standardwert ist 0 Pixel."
       avatars_border_radius: "Wähle den Rahmenradius der Avatare auf der Website. Die Einstellung wird auf alle Avatare angewendet, einschließlich des Avatars in der Kopfzeile und des Avatars auf der Benutzerkarte. 0 % entspricht einer quadratischen Form, 50 % einer abgerundeten Form. Der Standardwert ist 50 %"
-      mobile_avatars_size: "Wähle die Avatargröße bei Themen auf Mobilgeräten. Der Mindestwert ist 45 Pixel (Standard), der Höchstwert ist 80 Pixel. Um die vorgenommenen Änderungen zu sehen, aktualisiere die Seite mit Strg+F5 oder cmd+Shift+R."
+      mobile_avatars_size: "Wähle die Größe des Avatars bei Themen auf Mobilgeräten. Der Mindestwert ist 45 Pixel (Standard), der Höchstwert ist 80 Pixel. Um die vorgenommenen Änderungen zu sehen, aktualisiere die Seite mit Strg+F5 oder cmd+Shift+R."

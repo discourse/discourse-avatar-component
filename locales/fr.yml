@@ -5,3 +5,12 @@
 # https://translate.discourse.org/
 
 fr:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "Choisissez la taille de l'avatar la plus récente. La valeur par défaut est petite (25 pixels). Pour voir les modifications appliquées, actualisez la page avec Ctrl+F5 ou Cmd+Shift+R."
+      topic_avatars_size: "Choisissez la taille de l'avatar sur les sujets. La valeur par défaut est de 45 pixels. Pour voir les modifications appliquées, actualisez la page avec Ctrl+F5 ou Cmd+Shift+R."
+      header_avatars_size: "Choisissez la taille de l'avatar sur l'en-tête. La valeur par défaut est 32 pixels. Pour voir les modifications appliquées, actualisez la page avec Ctrl+F5 ou Cmd+Shift+R."
+      header_height: "Choisissez la hauteur de l'en-tête. Le choix doit être fait en fonction du header_avatars_size + 10px. Par exemple, si le header_avatars_size est défini sur 90 pixels, l'en-tête doit être de 100 pixels. La valeur par défaut est de 60 pixels."
+      margin_top: "Choisissez la distance en px à partir de l'en-tête. La valeur par défaut est 0px."
+      avatars_border_radius: "Choisissez le rayon de bordure des avatars sur le site. Le paramètre sera appliqué à tous les avatars, y compris celui de l'en-tête et celui de la carte d'utilisateur. 0 % correspond à une forme carrée, 50 % à une forme arrondie. La valeur par défaut est de 50 %"
+      mobile_avatars_size: "Choisissez la taille de l'avatar sur les sujets sur mobile. La valeur minimale est de 45 pixels (par défaut), la valeur maximale est de 80 pixels. Pour voir les modifications appliquées, actualisez la page avec Ctrl+F5 ou Cmd+Shift+R."

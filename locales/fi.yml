@@ -5,3 +5,12 @@
 # https://translate.discourse.org/
 
 fi:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "Valitse avatarin koko tuoreimmissa. Oletusarvo on pieni (25 pikseliä). Näet tehdyt muutokset päivittämällä sivun painamalla Ctrl+F5 tai Cmd+vaihto+R."
+      topic_avatars_size: "Valitse avatarin koko ketjuissa. Oletusarvo on 45 pikseliä. Näet tehdyt muutokset päivittämällä sivun painamalla Ctrl+F5 tai Cmd+vaihto+R."
+      header_avatars_size: "Valitse avatarin koko yläpalkissa. Oletusarvo on 32 pikseliä. Näet tehdyt muutokset päivittämällä sivun painamalla Ctrl+F5 tai Cmd+vaihto+R."
+      header_height: "Valitse yläpalkin korkeus. Valinnan tulisi olla header_avatars_size + 10 px. Jos esimerkiksi header_avatars_size on 90 px, otsikon tulisi olla 100 px. Oletusarvo on 60 px."
+      margin_top: "Valitse etäisyys otsikosta etäisyys pikseleinä. Oletusarvo on 0 px."
+      avatars_border_radius: "Valitse avatarien reunaviivan pyöristyksen säde (border-radius) sivustolla. Asetusta sovelletaan kaikkiin avatareihin, mukaan lukien yläpalkin ja käyttäjäkortin avatar. 0 % vastaa neliön muotoa, 50 % pyöristettyä muotoa. Oletusarvo 50 %."
+      mobile_avatars_size: "Valitse avatarin koko ketjuissa mobiililaitteilla. Vähimmäisarvo on 45 pikseliä (oletus), enimmäisarvo on 80 pikseliä. Näet tehdyt muutokset päivittämällä sivun painamalla Ctrl+F5 tai Cmd+vaihto+R."

@@ -5,3 +5,12 @@
 # https://translate.discourse.org/
 
 it:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "Scegli la dimensione dell'avatar più recente. Il valore predefinito è piccolo (25px). Per vedere le modifiche applicate, aggiorna la pagina con ctrl+F5 o cmd+shift+R."
+      topic_avatars_size: "Scegli la dimensione dell'avatar negli argomenti. Il valore predefinito è 45px. Per vedere le modifiche applicate, aggiorna la pagina con ctrl+F5 o cmd+shift+R."
+      header_avatars_size: "Scegli la dimensione dell'avatar nell'intestazione. Il valore predefinito è 32px. Per vedere le modifiche applicate, aggiorna la pagina con ctrl+F5 o cmd+shift+R."
+      header_height: "Scegli l'altezza dell'intestazione. La scelta deve essere fatta in base a header_avatars_size + 10px. Ad esempio, se header_avatars_size è impostato su 90px, l'intestazione dovrebbe essere 100px. Il valore predefinito è 60px."
+      margin_top: "Scegli la distanza in px dall'intestazione. Il valore predefinito è 0px."
+      avatars_border_radius: "Scegli il raggio del bordo degli avatar sul sito. L'impostazione verrà applicata a tutti gli avatar, incluso quello nell'intestazione e quello sulla scheda utente. 0% corrisponde a una forma quadrata, 50% a una forma arrotondata. Il valore predefinito è 50%"
+      mobile_avatars_size: "Scegli la dimensione dell'avatar negli argomenti su Mobile. Il valore minimo è 45px (predefinito), il valore massimo è 80px. Per vedere le modifiche applicate, aggiorna la pagina con ctrl+F5 o cmd+shift+R."
