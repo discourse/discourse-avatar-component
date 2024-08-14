@@ -5,3 +5,12 @@
 # https://translate.discourse.org/
 
 ja:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "最新に使用するアバターのサイズを選択します。デフォルトの値は small (25 px) です。変更を適用するには、Ctrl+F5 または cmd+shift+R を押してページを再読み込みします。"
+      topic_avatars_size: "トピックに使用するアバターのサイズを選択します。デフォルトの値は 45 px です。変更を適用するには、Ctrl+F5 または cmd+shift+R を押してページを再読み込みします。"
+      header_avatars_size: "ヘッダーに使用するアバターのサイズを選択します。デフォルトの値は 32 px です。変更を適用するには、Ctrl+F5 または cmd+shift+R を押してページを再読み込みします。"
+      header_height: "ヘッダーの高さを選択します。値は header_avatars_size + 10px に基づいて選択する必要があります。たとえば、header_avatars_size が 90 px に設定されている場合、ヘッダーは 100 px となります。デフォルト値は 60 px です。"
+      margin_top: "ヘッダーからの距離を px 単位で選択します。デフォルト値は 0 px です。"
+      avatars_border_radius: "サイトのアバターの border-radius を選択します。この設定は、ヘッダーとユーザーカードのアバターを含むすべてのアバターに適用されます。0% は正方形、50% は丸みを帯びた形状になります。デフォルト値は 50% です。"
+      mobile_avatars_size: "モバイルでのトピックに使用するアバターのサイズを選択します。最小値は 45 px (デフォルト) です。変更を適用するには、Ctrl+F5 または cmd+shift+R を押してページを再読み込みします。"
