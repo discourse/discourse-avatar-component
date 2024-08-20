@@ -5,3 +5,12 @@
 # https://translate.discourse.org/
 
 nl:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "Kies de avatargrootte op nieuwste. Standaardwaarde is klein (25 pixels). Vernieuw de pagina met Ctrl+F5 of Cmd+Shift+R om de wijzigingen toe te passen."
+      topic_avatars_size: "Kies de avatargrootte in topics. Standaardwaarde is 45 pixels. Vernieuw de pagina met Ctrl+F5 of Cmd+Shift+R om de wijzigingen toe te passen."
+      header_avatars_size: "Kies de avatargrootte in de kop. Standaardwaarde is 32 pixels. Vernieuw de pagina met Ctrl+F5 of Cmd+Shift+R om de wijzigingen toe te passen."
+      header_height: "Kies de hoogte van de kop. Er moet een keuze worden gemaakt op basis van header_avatars_size + 10 pixels. Als header_avatars_size bijvoorbeeld is ingesteld op 90 pixels, moet de kop 100 pixels zijn. De standaardwaarde is 60 pixels."
+      margin_top: "Kies de afstand in pixels vanaf de kop. Standaardwaarde is 0 pixels."
+      avatars_border_radius: "Kies de randstraal van de avatars op de site. De instelling wordt toegepast op alle avatars, inclusief die in de kop en op de gebruikerskaart. 0% komt overeen met een vierkante vorm, 50% met een ronde vorm. Standaardwaarde is 50%"
+      mobile_avatars_size: "Kies de avatargrootte in topics op mobiel. Minimumwaarde is 45 pixels (standaard). Vernieuw de pagina met Ctrl+F5 of Cmd+Shift+R om de wijzigingen toe te passen."

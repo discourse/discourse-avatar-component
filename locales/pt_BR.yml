@@ -5,3 +5,12 @@
 # https://translate.discourse.org/
 
 pt_BR:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "Escolha o tamanho do avatar nos tópicos mais recentes. O tamanho padrão é pequeno (25 px). Para ver as mudanças aplicadas, atualize a página com ctrl+F5 ou cmd+shift+R."
+      topic_avatars_size: "Escolha o tamanho do avatar nos tópicos. O tamanho padrão é 45 px. Para ver as mudanças aplicadas, atualize a página com ctrl+F5 ou cmd+shift+R."
+      header_avatars_size: "Escolha o tamanho do avatar no cabeçalho. O tamanho padrão é 32 px. Para ver as mudanças aplicadas, atualize a página com ctrl+F5 ou cmd+shift+R."
+      header_height: "Escolha a altura do cabeçalho. É preciso escolher considerando o header_avatars_size + 10 px. Por exemplo, se header_avatars_size estiver definido como 90 px, o cabeçalho deverá ter 100 px. O tamanho padrão é 60 px."
+      margin_top: "Escolha a distância, em px, a partir do cabeçalho. A distância padrão é 0 px."
+      avatars_border_radius: "Escolha o raio da borda dos avatares no site. Esta configuração será aplicada a todos os avatares, inclusive o que está no cabeçalho e o que está no cartão do(a) usuário(a). O valor 0% representa uma forma quadrada, e 50%, uma forma arredondada. O padrão é 50%"
+      mobile_avatars_size: "Escolha o tamanho do avatar para dispositivos móveis. O tamanho mínimo é 45 px (padrão), e o máximo é 80 px. Para ver as mudanças aplicadas, atualize a página com ctrl+F5 ou cmd+shift+R."

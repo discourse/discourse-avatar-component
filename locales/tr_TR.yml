@@ -5,3 +5,12 @@
 # https://translate.discourse.org/
 
 tr_TR:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "Avatar boyutunu en son seçin. Varsayılan değer küçüktür (25 piksel). Uygulanan değişiklikleri görmek için ctrl+F5 veya cmd+shift+R ile sayfayı yenileyin."
+      topic_avatars_size: "Konulardaki avatar boyutunu seçin. Varsayılan değer 45 pikseldir. Uygulanan değişiklikleri görmek için ctrl+F5 veya cmd+shift+R ile sayfayı yenileyin."
+      header_avatars_size: "Başlıktaki avatar boyutunu seçin. Varsayılan değer 32 pikseldir. Uygulanan değişiklikleri görmek için ctrl+F5 veya cmd+shift+R ile sayfayı yenileyin."
+      header_height: "Başlığın yüksekliğini seçin. Seçim header_avatars_size + 10 piksel temelinde yapılmalıdır. Örneğin header_avatars_size 90px olarak ayarlanmışsa başlık 100 piksel olmalıdır. Varsayılan değer 60 pikseldir."
+      margin_top: "Başlıktan piksel cinsinden mesafeyi seçin. Varsayılan değer 0 pikseldir."
+      avatars_border_radius: "Sitedeki avatarların border-radius'ını seçin. Ayar, başlıktaki ve kullanıcı kartındaki avatarlar dâhil olmak üzere tüm avatarlara uygulanır. %0 kare bir şekle, %50 ise yuvarlak bir şekle karşılık gelir. Varsayılan değer %50'dir"
+      mobile_avatars_size: "Mobildeki konularda avatar boyutunu seçin. Minimum değer 45 pikseldir (varsayılan), maksimum değer 80 pikseldir. Uygulanan değişiklikleri görmek için ctrl+F5 veya cmd+shift+R ile sayfayı yenileyin."
