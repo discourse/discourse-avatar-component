@@ -33,7 +33,9 @@
 }
 
 // Avatars shape (round = 50%, square = 0%)
-.avatar {
+.avatar,
+.groups-boxes .group-box .group-avatar-flair .avatar-flair,
+.group-info .avatar-flair {
   border-radius: #{$avatars_border_radius} !important;
 }
 
