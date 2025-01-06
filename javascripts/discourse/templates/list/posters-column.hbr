@@ -1,3 +1,4 @@
+{{!-- has-modern-replacement --}}
 <td
   class="posters topic-list-data theme-avatar-{{theme-setting
       'latest_avatar_size'
