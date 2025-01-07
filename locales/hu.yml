@@ -5,3 +5,12 @@
 # https://translate.discourse.org/
 
 hu:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "Válassza ki az avatar méretét a legfrissebb oldalon. Az alapértelmezett érték kicsi (25 képpont). Az alkalmazott módosítások megtekintéséhez frissítse az oldalt a ctrl+F5 vagy cmd+shift+R billentyűkombinációval."
+      topic_avatars_size: "Válassza ki az avatar méretét a témáknál. Az alapértelmezett érték 45 képpont. Az alkalmazott módosítások megtekintéséhez frissítse az oldalt a ctrl+F5 vagy cmd+shift+R billentyűkombinációval."
+      header_avatars_size: "Válassza ki az avatar méretét a fejlécben. Az alapértelmezett érték 32 képpont. Az alkalmazott módosítások megtekintéséhez frissítse az oldalt a ctrl+F5 vagy cmd+shift+R billentyűkombinációval."
+      header_height: "Válassza ki a fejléc magasságát. A választást a header_avatars_size + 10px alapján kell meghozni. Ha például a header_avatars_size értéke 90 képpont, akkor a fejlécnek 100 képpontosnak kell lennie. Az alapértelmezett érték 60 képpont."
+      margin_top: "Válassza ki a távolságot px-ben a fejlécből. Az alapértelmezett érték 0 képpont."
+      avatars_border_radius: "Válassza ki a webhelyen található avatarok határ sugarát. A beállítás minden avatarra vonatkozik, beleértve a fejlécen és a felhasználói kártyán lévőt is. A 0% négyzet, 50% a lekerekített alaknak felel meg. Alapértelmezett érték 50%"
+      mobile_avatars_size: "Válassza ki az avatar méretét a mobil témákban. Minimális érték 45 képpont (alapértelmezett), maximális érték 80 képpont. Az alkalmazott módosítások megtekintéséhez frissítse az oldalt a ctrl+F5 vagy cmd+shift+R billentyűkombinációval."
