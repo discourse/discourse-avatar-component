@@ -1,10 +1,4 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
-tr_TR:
+tr:
   theme_metadata:
     settings:
       latest_avatar_size: "Avatar boyutunu en son seçin. Varsayılan değer küçüktür (25 piksel). Uygulanan değişiklikleri görmek için ctrl+F5 veya cmd+shift+R ile sayfayı yenileyin."

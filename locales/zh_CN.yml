@@ -1,10 +1,4 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
-zh_CN:
+zh-CN:
   theme_metadata:
     settings:
       latest_avatar_size: "选择“最新”部分的头像大小。默认值为小 (25px)。要查看应用的更改，请使用 Ctrl+F5 或 Cmd+Shift+R 刷新页面。"

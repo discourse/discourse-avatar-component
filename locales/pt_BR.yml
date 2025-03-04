@@ -1,10 +1,4 @@
-# WARNING: Never edit this file.
-# It will be overwritten when translations are pulled from Crowdin.
-#
-# To work with us on translations, join this project:
-# https://translate.discourse.org/
-
-pt_BR:
+pt:
   theme_metadata:
     settings:
       latest_avatar_size: "Escolha o tamanho do avatar nos tópicos mais recentes. O tamanho padrão é pequeno (25 px). Para ver as mudanças aplicadas, atualize a página com ctrl+F5 ou cmd+shift+R."
