@@ -1,5 +1,5 @@
-// Transparent background for the header avatar
 .d-header-icons {
+  // Transparent background for the header avatar
   .current-user .icon {
     &:active,
     &:hover,
@@ -7,13 +7,12 @@
       background-color: transparent;
     }
   }
-}
 
-// Notifications babble
-.d-header-icons {
+  // Notifications babble
   .unread-notifications {
     right: -6px;
   }
+
   .unread-private-messages {
     right: auto;
     left: -10%;
