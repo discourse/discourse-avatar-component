@@ -5,3 +5,12 @@
 # https://translate.discourse.org/
 
 pl_PL:
+  theme_metadata:
+    settings:
+      latest_avatar_size: "Wybierz rozmiar awatara w najnowszej wersji. Domyślną wartością jest mały (25px). Aby zobaczyć zastosowane zmiany, odśwież stronę za pomocą ctrl+F5 lub cmd+shift+R."
+      topic_avatars_size: "Wybierz rozmiar awatara w tematach. Domyślna wartość to 45px. Aby zobaczyć zastosowane zmiany, odśwież stronę za pomocą ctrl+F5 lub cmd+shift+R."
+      header_avatars_size: "Wybierz rozmiar awatara w nagłówku. Domyślna wartość to 32px. Aby zobaczyć zastosowane zmiany, odśwież stronę za pomocą ctrl+F5 lub cmd+shift+R."
+      header_height: "Wybierz wysokość nagłówka. Wyboru należy dokonać na podstawie header_avatars_size + 10px. Na przykład, jeśli header_avatars_size jest ustawiony na 90px, nagłówek powinien mieć 100px. Wartość domyślna to 60px."
+      margin_top: "Wybierz odległość w px od nagłówka. Domyślną wartością jest 0px."
+      avatars_border_radius: "Wybierz promień zaokrąglenia awatarów na stronie. Ustawienie zostanie zastosowane do wszystkich awatarów, w tym tego w nagłówku i tego na karcie użytkownika. 0% odpowiada kwadratowemu kształtowi, 50% zaokrąglonemu kształtowi. Wartość domyślna to 50%"
+      mobile_avatars_size: "Wybierz rozmiar awatara w tematach na urządzeniach mobilnych. Wartość minimalna to 45px (domyślnie), wartość maksymalna to 80px. Aby zobaczyć zastosowane zmiany, odśwież stronę za pomocą ctrl+F5 lub cmd+shift+R."
