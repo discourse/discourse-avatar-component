@@ -1,5 +1,6 @@
 import HeaderPostersCell from "discourse/components/topic-list/header/posters-cell";
 import avatar from "discourse/helpers/avatar";
+import { withSilencedDeprecations } from "discourse/lib/deprecated";
 import { withPluginApi } from "discourse/lib/plugin-api";
 
 const ItemCell = <template>
@@ -14,7 +15,8 @@ const ItemCell = <template>
           href={{poster.user.path}}
           data-user-card={{poster.user.username}}
           class={{poster.extraClasses}}
-        >{{avatar
+        >
+          {{avatar
             poster
             avatarTemplatePath="user.avatar_template"
             usernamePath="user.username"
@@ -30,11 +32,18 @@ export default {
   name: "discourse-avatar-component",
 
   initialize() {
-    withPluginApi("1.34.0", (api) => {
-      api.changeWidgetSetting(
-        "post-avatar",
-        "size",
-        settings.topic_avatars_size
+    withPluginApi((api) => {
+      api.registerValueTransformer(
+        "post-avatar-size",
+        () => settings.topic_avatars_size
+      );
+
+      withSilencedDeprecations("discourse.post-stream-widget-overrides", () =>
+        api.changeWidgetSetting(
+          "post-avatar",
+          "size",
+          settings.topic_avatars_size
+        )
       );
 
       api.registerValueTransformer(
