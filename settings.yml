@@ -2,9 +2,7 @@ latest_avatar_size:
   default: small
   type: enum
   choices:
-    - tiny
     - small
-    - medium
     - large
     - extra_large
     - huge
