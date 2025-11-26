@@ -1,6 +1,5 @@
 import HeaderPostersCell from "discourse/components/topic-list/header/posters-cell";
 import avatar from "discourse/helpers/avatar";
-import { withSilencedDeprecations } from "discourse/lib/deprecated";
 import { withPluginApi } from "discourse/lib/plugin-api";
 
 const ItemCell = <template>
@@ -36,14 +35,6 @@ export default {
       api.registerValueTransformer(
         "post-avatar-size",
         () => settings.topic_avatars_size
-      );
-
-      withSilencedDeprecations("discourse.post-stream-widget-overrides", () =>
-        api.changeWidgetSetting(
-          "post-avatar",
-          "size",
-          settings.topic_avatars_size
-        )
       );
 
       api.registerValueTransformer(
