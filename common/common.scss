@@ -53,13 +53,21 @@
     }
   }
 
-  &.theme-avatar-tiny,
   &.theme-avatar-small {
+    --d-topic-list-avatar-size: 24px;
     width: 146px;
   }
 
-  &.theme-avatar-medium {
-    width: 176px;
+  &.theme-avatar-large {
+    --d-topic-list-avatar-size: 48px;
+  }
+
+  &.theme-avatar-extra_large {
+    --d-topic-list-avatar-size: 96px;
+  }
+
+  &.theme-avatar-huge {
+    --d-topic-list-avatar-size: 146px;
   }
 }
 
