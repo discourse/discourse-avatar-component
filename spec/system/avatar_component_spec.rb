@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-RSpec.describe "Category column", type: :system do
+RSpec.describe "Category column" do
   let!(:theme) { upload_theme_component }
   fab!(:category)
   fab!(:topics) { Fabricate.times(3, :topic, category: category) }
